@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F4FF;
+  }
+  .table_class {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  .table_class th, 
+  .table_class td {
+    padding: 8px;
+    text-align: left;
+    color: #6D7284;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .table_class th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  .container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+  }
+  .logo {
+    max-width: 200px;  /* Changed from percentage to fixed width */
+    height: auto;
+    border: 0;
+    margin: 5px 0 10px;  /* Simplified margins */
+    display: block;
+  }
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff !important;
+    background-color: #00289f;
+    border-radius: 7px;
+    font-size: 16px;
+    border: none;
+    mso-padding-alt: 0px;
+    margin-bottom: 15px;
+  }
+  .link {
+    text-align: center;
+    text-decoration: underline;
+    color: #777777 !important;
+    border: none;
+  }
+  .button:focus,
+  .button:hover {
+    background-color: #4BE4A4;
+  }
+  .title_class {
+    padding-top: 0px;
+    margin-top: 0px;
+    color: #000000;
+  }
+  .quoted_text {
+    color: #000000;
+    background-color: #f0f4ff;
+    border-radius: 4px;
+    padding: 10px;
+    border-color: #DDE0ED;
+    border-width: 1px;
+    border-style: solid;
+   }
+  .content_class {
+    color: #000000;
+  }
+  .table_cell_class{
+    padding-left: 35px; padding-right: 20px; padding-top: 10px;;
+    text-align: left;
+  }
+  .footer {
+    font-size: 0.8em;
+    color: #777777;
+    text-align: center;
+    padding: 0px 0;
+    background-color: #F0F4FF;
+  }
+  @media only screen and (max-width: 600px) {
+    .container {
+      width: 94%;
+      margin: 3% auto;
+      box-shadow: none;
+    }
+  }
+</style>
+</head>
+<body>
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" bgcolor="#F0F4FF">
+  <tr>
+    <td align="left">
+      <table class="container" role="presentation" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+        <tr>
+          <td class="table_cell_class">
+            <a href="https://app.curewiki.health"><img class="logo" src="./chu_liege.jpg" alt="Curewiki logo" /></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="table_cell_class" style="padding-top: 0px;">
+            <iframe src="https://app-dev.qa-curewiki.health/embedded-chat" style="width: 100%; height: 800px; border: none;">
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="footer" style="background-color: #F0F4FF;">
+      <p style="color: #777777;">Update your preferences in <a href="index.html" class="link" >your profile</a><br/>&copy; Curewiki 2024. All Rights Reserved</p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
